@@ -43,14 +43,25 @@
          margin-top: 28px;
     }
        
-    /* flowe_section */
+    /* flower_section */
 
     .flowers{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        margin-left: 10px;
+        margin-right: 10px;
 
     }
-    /* .flower1{
-        flex-basis: 40%;
-    } */
+    
+
+    /* flower_plant_section */
+
+    .flower_plant_section{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .flower_plant_section_content h5{
+        font-size: 30px;
+    }
 }

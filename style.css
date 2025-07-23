@@ -120,3 +120,34 @@ main{
     background-color: #E95A08;
     border: none;
 }
+
+
+
+/* flower_plant_section */
+
+.flower_plant_section{
+    max-width: 100%;
+    margin-top: 220px;
+    display: flex;
+    gap: 50px;
+}
+.flower_plant_section_img{
+    flex-basis: 48%;
+}
+.flower_plant_section_content{
+    flex-basis: 48%;
+}
+.flower_plant_section_content h5{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.flower_plant_section_content ul li{
+    color: #8987A1;
+    margin: 20px;
+    font-size: 22px;
+}
+.flower_plant_section_img img{
+    width: 100%;
+    height: auto;
+}
