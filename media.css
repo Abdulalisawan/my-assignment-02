@@ -1,0 +1,56 @@
+@media only screen  and (min-width:100px) and (max-width: 575px) {
+
+    /* header_section */
+
+    .nav1{
+        display: none;
+    }
+    header{
+        margin: 10px 16px;
+        align-items: center;
+    }
+    .cart{
+        font-size: 20px;
+        color:#000000;
+        font-weight: 500;
+    }
+    .nav_img{
+        width: 60%;
+    }
+
+    /* banner_section */
+
+    .banner_section{
+        flex-direction: column;
+        margin: 22px;
+        
+    }
+    .banner_head h1{
+        font-size: 24px;
+       
+        
+
+    }
+    .banner_head p{
+        font-size: 14px;
+    }
+
+    .banner_img{
+        order: 1;
+    }
+    .banner_head{
+         order: 2;
+         margin-top: 28px;
+    }
+       
+    /* flowe_section */
+
+    .flowers{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    /* .flower1{
+        flex-basis: 40%;
+    } */
+}
