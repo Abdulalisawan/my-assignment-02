@@ -98,6 +98,7 @@ nav ul li a{
 .flower1{
     flex-basis: 24%;
     text-align: center;
+    transition: all 0.3 ease ;
 }
 .flower1 img{
     width: 100%;
@@ -296,8 +297,30 @@ footer{
 
 }
 .nav_ul2 li{
-    margin-bottom: 32px
+    margin-bottom: 32px;
 }
 .nav_ul3 li{
-    margin-bottom: 32px
+    margin-bottom: 32px;
+}
+.contact{
+    margin-bottom: 0;
+}
+
+
+
+.flower1:hover{
+    transform: scale(1.1);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.trusted_img img {
+  animation: spin 3s linear infinite;
 }

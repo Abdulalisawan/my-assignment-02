@@ -37,7 +37,11 @@
 
     .banner_img{
         order: 1;
+        
+        
     }
+   
+    
     .banner_head{
          order: 2;
          margin-top: 28px;
@@ -60,7 +64,7 @@
         flex-direction: column;
         margin-left: 20px;
         margin-right: 20px;
-        margin-left: 20px;
+        
         
     }
     .flower_plant_section_content h5{
@@ -95,7 +99,8 @@
         font-size: 20px;
     }
     .email{
-        padding-right: 21px;
+        width: 100%;
+        max-width: 300px;
     }
     form{
         margin-left: 20px;
@@ -110,5 +115,11 @@
         padding-right: 2px;
         
     }
-}
 
+    /* footer_section */
+    footer{
+        flex-direction: column;
+        
+    }
+    
+}
